@@ -162,7 +162,7 @@ class App extends Component {
 
         return (
             <div className={"grid"}>
-                <div className="ui">
+                <div className="ui" style={{display: 'none'}}>
                     <p>
                         <label htmlFor={'debug'}>Debug</label>
                         <select id={'debug'} value={debug} onChange={(e) => this.setState({debug: e.target.value})}>
